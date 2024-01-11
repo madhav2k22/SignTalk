@@ -24,6 +24,15 @@
                 transform: rotate(360deg);
             }
         }
+
+        .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;}
+
+      body {
+      padding-top: 70px; 
+    }
         
         .center {
             position: absolute;
@@ -33,6 +42,19 @@
             right: 0;
             margin: auto;
         }
+
+        .center1 {
+            margin-top: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+        .deaf-image {
+            object-fit: cover;
+            max-width: 50%;  
+height: auto; 
+}
     </style>
     <script>
         
@@ -86,7 +108,7 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact/index.html">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
@@ -97,9 +119,8 @@
       
     <!--heading -->
     <div class="sign-heading-cointainer">
-        <h1 id="heading">------</h1>
-        <span id="underline"></span>
-        <p id="sub-heading">The Voice Of The Deaf People</p>
+        <h1 id="heading">The Voice Of The Deaf People</h1>
+        
     </div>
     <!-- home-option-cards -->
     <div class="home-options-wrapper">
@@ -120,21 +141,33 @@
             </button>
         </div>
     </div>
-    <!-- bottom-nav -->
-    <div class="bottom-nav-bar">
-        <button class="nav-btn active-nav-btn" id="nav-home">
-            <span class="material-symbols-rounded">Home</span>
-            <p>Home</p>
-        </button>
-        <button class="nav-btn" id="nav-translate">
-            <span class="material-symbols-rounded">translate</span>
-            <p>Translate</p>
-        </button>
-        <button class="nav-btn" id="nav-settings">
-            <span class="material-symbols-rounded">settings_suggest</span>
-            <p>Settings</p>
-        </button>
+
+    <hr style="margin-top: 40px; margin-bottom: 40px;">
+
+    <div class="deaf-content">
+        <h2 class="center1">Empowering Deaf Communities</h2>
+
+        <hr style="margin-top: 40px; margin-bottom: 40px;">
+
+        <p>At Sign Talk, we are committed to creating a world that is inclusive and accessible for everyone, including the deaf community. Our mission is to help deaf people to communicate in the society.</p>
+    
+        
+    
+        <p>Join us in making a difference. Together, we can break down barriers and build a more inclusive society.</p>
+
+        <img src= "assets/images/deaf-images.webp" width = "390" height = "500" class="center1"> 
+      </div>
     </div>
+
+
+
+    
+
+
+
+    <div class="footer">
+        <p>&copy; 2024 Sign Talk. All rights reserved.</p>
+      </div>
     <script src="app.js"></script>
 </body>
 
