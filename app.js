@@ -13,15 +13,15 @@ translateCard.addEventListener("click", function() {
     window.location = '/translate';
 })
 learnCard.addEventListener("click", function() {
-    window.location = '/learn';
-})
-contributeCard.addEventListener("click",function(){
-    window.location='https://github.com/madhav2k22/SignTalk.git'
+    window.location = 'learn.html';
 })
 
 
 contactUsCard.addEventListener("click", function() {
     window.location = 'contact.html';
+})
+contributeCard.addEventListener("click", function() {
+    window.location = 'https://github.com/madhav2k22/SignTalk.git';
 })
 
 //bottom nav
