@@ -15,10 +15,13 @@ translateCard.addEventListener("click", function() {
 learnCard.addEventListener("click", function() {
     window.location = '/learn';
 })
+contributeCard.addEventListener("click",function(){
+    window.location='https://github.com/madhav2k22/SignTalk.git'
+})
 
 
 contactUsCard.addEventListener("click", function() {
-    window.location = '/contact-us';
+    window.location = 'contact.html';
 })
 
 //bottom nav
