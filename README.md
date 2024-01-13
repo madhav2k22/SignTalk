@@ -23,7 +23,7 @@ The Sign Talk Web App is a platform designed to facilitate communication with de
 - Visual Studio Code
 - Kaggle (for data-related tasks)
 - PyCharm
-- Affinity Designer (for graphic design)
+- Affinity Designer (for logo design)
 
 For any inquiries or feedback please contact 
 
